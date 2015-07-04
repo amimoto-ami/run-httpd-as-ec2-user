@@ -1,6 +1,6 @@
 # Run HTTPD as ec2-user
 
-You can setup email address for cron, logwatch and other system notifications.
+Run Nginx & PHP-FPM( or HHVM) as `ec2-user`
 
 ## What's AMIMOTO
 

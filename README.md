@@ -8,6 +8,14 @@ Run Nginx & PHP-FPM( or HHVM) as `ec2-user`
 
 ## How to use
 
+### SSH into your instance
+
+```
+ssh ec2-user@<ip-address>
+```
+
+### Then run the following command on your instance
+
 ```
 curl -L https://raw.githubusercontent.com/amimoto-ami/run-httpd-as-ec2-user/master/run-httpd-as-ec2-user.sh | sudo bash
 ```

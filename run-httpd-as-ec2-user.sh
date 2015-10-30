@@ -2,9 +2,7 @@
 
 set -e
 
-hhvm --version
-
-if [ $? == 0 ]; then
+if hhvm --version ; then
     echo '{
         "nginx" : { "config" : { "user" : "ec2-user" } },
         "php" : { "config" : { "user" : "ec2-user" } },

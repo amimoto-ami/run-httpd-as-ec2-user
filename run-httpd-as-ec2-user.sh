@@ -19,3 +19,9 @@ fi
 
 /opt/local/provision
 chown -R ec2-user:nginx /var/www/vhosts
+
+if hhvm --version ; then
+    sudo service hhvm restart
+else
+    sudo service php-fpm restart
+fi
